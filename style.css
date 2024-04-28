@@ -1,0 +1,79 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    padding-top: 10px;
+    overflow: hidden;
+    background:linear-gradient(135deg,#111,#bbb) ;
+
+}
+li{
+    float: left;
+    padding-top: 2px;
+
+}
+li :last-child{
+    border-right: none;
+
+}
+li a{
+    color: wheat;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+li a:hover:not(.active){
+    background-color: #111;
+
+}
+.active{
+    background-color: crimson;
+
+}
+.name{
+    height: 200px;
+    padding: 20px 500px 20px;
+    background-color: beige;
+    text-align: left;
+}
+.something{
+    padding: 100px;
+} 
+table{
+    width: 100%;
+    padding: 10px;
+    border-collapse: collapse;
+    background: linear-gradient(135deg,#111,#bbb);
+    color: beige;
+}
+td{
+    text-align: left;
+    padding-left: 100px;
+}
+div.gallery{
+    margin: 5px;
+    border: 1 px solid #111;
+    float:right;
+    width: 180px;
+
+}
+div.gallery:hover{
+    border: 1px solid #777;
+
+}
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+div.desc{
+    padding: 15px;
+    text-align: center;
+}
+.para1{
+    color: brown;
+    font-size: large;
+    text-align: center;
+    padding-top: 25px;
+}
